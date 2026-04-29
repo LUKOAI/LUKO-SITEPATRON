@@ -14,7 +14,7 @@
         "hostinger-api-mcp@latest"
       ],
       "env": {
-        "API_TOKEN": "ENTER_TOKEN_HERE"
+        "API_TOKEN": "[REMOVED-OLD-REVOKED-TOKEN]"
       }
     }
   }
