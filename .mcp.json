@@ -1,11 +1,4 @@
 {
-  "inputs": [
-    {
-      "id": "api_token",
-      "type": "promptString",
-      "description": "Enter your Hostinger API token (required)"
-    }
-  ],
   "servers": {
     "hostinger-mcp": {
       "type": "stdio",
@@ -14,7 +7,7 @@
         "hostinger-api-mcp@latest"
       ],
       "env": {
-        "API_TOKEN": "[REMOVED-OLD-REVOKED-TOKEN]"
+        "API_TOKEN": "${HOSTINGER_API_TOKEN}"
       }
     }
   }
